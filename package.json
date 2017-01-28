@@ -1,0 +1,19 @@
+{
+  "name": "observable-mouse-event",
+  "version": "1.0.0",
+  "description": "Mouse event with Observables",
+  "scripts": {
+    "start": "webpack-dev-server --watch --inline",
+    "postinstall": "typings install"
+  },
+  "dependencies": {
+    "rxjs": "5.0.3"
+  },
+  "devDependencies": {
+    "ts-loader": "^2.0.0",
+    "typescript": "^2.1.5",
+    "typings": "^2.1.0",
+    "webpack": "^1.14.0",
+    "webpack-dev-server": "^1.16.2"
+  }
+}
